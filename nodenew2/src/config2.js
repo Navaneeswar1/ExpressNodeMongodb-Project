@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 const connect = mongoose.connect(
-  'mongodb+srv://navaneswar231:p%40ssw0rd@cluster1.9wdtxh9.mongodb.net/'
+  'mongodb+srv://<username>:<password>@cluster1.9wdtxh9.mongodb.net/'
 )
 
 connect
