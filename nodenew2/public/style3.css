@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(100deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 150% 350%;
+  animation: gradient-animation 4s ease infinite;
+  font-family: Arial, sans-serif;
+  color: #2c3e50;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: gold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #f8f9fa;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  color: #34495e;
+}
+
+th {
+  background-color: orange;
+  color: #ecf0f1;
+}
+
+tr:hover {
+  background-color: #dfe6e9;
+}
+
+.action-btn1 {
+  background: rgb(36, 238, 0);
+  background: linear-gradient(0deg, rgb(167, 238, 0) 0%, rgb(126, 251, 2) 100%);
+  display: block;
+  width: 50%;
+  padding: 10px;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 0;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.action-btn2 {
+  background: rgb(238, 0, 67);
+  background: linear-gradient(0deg, rgb(238, 0, 28) 0%, rgb(251, 2, 52) 100%);
+  display: block;
+  width: 50%;
+  padding: 10px;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 0;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+p {
+  margin-top: 15px;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.notification {
+  background-color: #e74c3c;
+  color: #ffffff;
+  padding: 12px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.notification.success {
+  background-color: #2ecc71;
+  color: #ffffff;
+}
